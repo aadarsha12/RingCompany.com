@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #FFE5CA;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border-bottom: solid 1px; */
+    height: 10vh;
+}
+
+.logo{
+    width: 30vh;
+    margin: 1rem;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    width: 40vh;
+    justify-content: space-evenly;
+    
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding: 0.1rem;
+    border-radius: 40%;
+    
+    
+}
+
+.nav-links a:hover{
+    
+    color: #FFE5CA;
+    background-color: black;
+    border-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: .5s;
+    
+}
+
+main{
+    margin-top: 20vh;
+    /* margin-bottom: 20vh; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10vh;
+    margin-bottom:20vh ;
+}
+
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20vh;
+    /* background-color: aquamarine; */
+}
+
+.main-content>.wordings{
+    font-size: 5rem;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    /* opacity: 1; */
+    line-height: 1;
+    position: relative;
+    
+    
+}
+.main-content>.wordings>p{
+    opacity: 0.7;
+}
+
+.readmore{
+    width: 10vh;
+    height:5vh;
+    background-color: black;
+    color: #FFE5CA;
+    position: absolute;
+    bottom: -10vh;
+    right: 0;
+    opacity: 1 !important;
+}
+
+.readmore a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.readmore:hover{
+   border-radius: 10px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+
+   transition: 0.5s;
+}
+
+.main-content>.wordings::first-letter{
+    font-size: 10rem;
+}
+
+
+.main-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-sec-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.coll-heading{
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: solid 1px;
+}
+
+
+.coll-Sub-heading{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.coll-Sub-heading::first-letter{
+    font-size: 5rem;
+}
+
+.collections{
+    display: flex;
+   
+    margin-top: 10vh;
+    background-color: rgba(0, 0, 0, 0.542);
+    padding: 20vh;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.main1{
+    height: 60vh;
+    object-fit: cover;
+}
+
+.main2{
+    height: 40vh;
+    width: 40vh;
+    object-fit: cover;
+}
+
+.img1{
+    width: 40vh;
+    object-position: 70%;
+    
+}
+
+footer{
+    border-top: solid 1px;
+}
+
+.footcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.footerlogo{
+    width: 30vh;
+    margin: 5vh;
+}
+
+.emailsubscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.emailsubscription h2{
+    font-weight: 600;
+}
+
+.footemail{
+    font-size: 1.5rem;
+    border-bottom: solid 1px;
+}
+
+#email{
+    background-color: #FFE5CA;
+    font-size: 1.5rem;
+    outline: none;
+    /* width: 100%; */
+    
+}
+
+.subscribe>a:hover{
+    border-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: black;
+    color: #FFE5CA;
+    transition: 0.5s;
+
+
+}
+
+.customerservice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.customerservice a{
+    text-decoration: none;
+    color: black;
+}
+
+.customerservice ul{
+list-style: none;
+}
+
+.address{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+
+.aboutpagewordings{
+    font-size: 3rem;
+}
+
+.aboutpagewordings p{
+    margin-top: 20px;
+}
+
+.aboutpagewordings p::first-line{
+    font-style: italic;
+}
